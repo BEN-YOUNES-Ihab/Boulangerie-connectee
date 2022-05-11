@@ -1,0 +1,52 @@
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<title>ESP-32</title>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="config.css">
+</head>
+<body>
+<header class="loginheader">
+  <h4>ESP-32</h4>
+</header>
+<section>
+
+  <article>
+
+    <div class="configsquare">
+        <div class="material-textfield">
+            <form>
+        <div class="material-textfield">
+          <input class="input" placeholder=" " type="text" name='username' id="username" value="" maxlength="32" required>
+          <label class="labeldesign">Nom d'utilisateur</label>
+      </div>
+      <div  class="material-textfield">
+          <input class="input" type="password" placeholder=" " id="myInput" name='psw' maxlength="32" required>
+          <label class="labeldesign">Mot de passe</label>
+      </div>
+      <p>
+        <span style="color: red;" id="error"></span>
+      </p>
+      <input class="button" type='submit' value="Se connecter">
+        </div>
+        <label  class="container checkboxmsg">Se souvenir du nom d'utilisateur
+           <input type="checkbox" name="remember" id="remember" value="1">
+           <span class="checkmark"></span>
+        </label>
+      </form>
+        <label  class="container checkboxmsg">Afficher le mot de passe
+           <input type="checkbox" >
+           <span class="checkmark"></span>
+        </label>
+  </article>
+  
+
+</section>
+<footer>
+  <p class="pfooter">Projet boulangerie connectée ©</p>
+</footer>
+</body>
+</html>
